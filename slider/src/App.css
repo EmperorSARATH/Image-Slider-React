@@ -1,0 +1,39 @@
+.non-active{
+
+  transition-duration: 1s ease;
+  opacity: 0;
+
+}
+
+.left-arrow{
+  position: absolute;
+  left: 19%;
+  top: 50%;
+  font-size: 3rem;
+  z-index: 10;
+  color: aqua;
+}
+
+.right-arrow{
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  font-size: 3rem;
+  z-index: 10;
+  color: aqua;
+}
+.active{
+  top: 15px;
+  position: absolute;
+  left: 20%;
+  width: max-content;
+  transition-duration: 1s ;
+  opacity: 1;
+  transform:scale(1.08);
+}
+
+.image{
+  margin-top: 5%;
+width: 800px;
+height: 500px;
+}
